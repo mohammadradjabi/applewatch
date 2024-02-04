@@ -1,0 +1,20 @@
+{
+  "name": "6-apple-watch",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass --watch scss/ -o css/ --recursive",
+    "media": "node-sass --watch scss/media/ -o css/media/ --recursive"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "jquery": "^3.7.1",
+    "live-server": "^1.2.2",
+    "node-sass": "^9.0.0",
+    "swiper": "^11.0.5"
+  }
+}
